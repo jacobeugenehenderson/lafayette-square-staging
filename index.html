@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="https://lafayette-square.com/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Lafayette Square</title>
+
+    <!-- Open Graph — SMS / social link previews -->
+    <meta property="og:title" content="Lafayette Square" />
+    <meta property="og:image" content="https://lafayette-square.com/photos/og-preview.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lafayette-square.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lafayette Square" />
+    <meta name="twitter:image" content="https://lafayette-square.com/photos/og-preview.jpg" />
+    <script>
+      // Apply accessible class before first paint to avoid CSS repaint spike
+      try { if (localStorage.getItem('lsq-accessible') === '1') document.documentElement.classList.add('accessible') } catch(e) {}
+    </script>
+    <script>
+      // SPA path restoration for GitHub Pages 404.html redirect
+      (function () {
+        var sp = new URLSearchParams(location.search);
+        var spaPath = sp.get('__spa_path');
+        if (spaPath) {
+          sp.delete('__spa_path');
+          var remaining = sp.toString();
+          var url = spaPath + (remaining ? (spaPath.indexOf('?') !== -1 ? '&' : '?') + remaining : '');
+          history.replaceState(null, '', url);
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/lafayette-square-staging/assets/main-Wpu_2bsr.js"></script>
+    <link rel="modulepreload" crossorigin href="/lafayette-square-staging/assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="/lafayette-square-staging/assets/vendor-Cefv4pHc.js">
+    <link rel="modulepreload" crossorigin href="/lafayette-square-staging/assets/react-BCTB4csF.js">
+    <link rel="modulepreload" crossorigin href="/lafayette-square-staging/assets/postfx-CkmwN3dY.js">
+    <link rel="modulepreload" crossorigin href="/lafayette-square-staging/assets/index--kPpTIq3.js">
+    <link rel="modulepreload" crossorigin href="/lafayette-square-staging/assets/Terrain-CzVxDnR1.js">
+    <link rel="stylesheet" crossorigin href="/lafayette-square-staging/assets/index-nQYsSO4l.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
