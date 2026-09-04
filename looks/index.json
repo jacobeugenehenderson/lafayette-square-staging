@@ -1,0 +1,45 @@
+{
+  "default": "lafayette-square",
+  "looks": [
+    {
+      "id": "lafayette-square",
+      "name": "Lafayette Square",
+      "scene": "lafayette-square",
+      "createdAt": 1777317275119,
+      "bakedAt": 1788542926085,
+      "updatedAt": 1788541622362
+    },
+    {
+      "id": "toy",
+      "name": "Toy Neighborhood",
+      "scene": "toy",
+      "createdAt": 1778253900000,
+      "bakedAt": 1780279673589,
+      "updatedAt": 1780279652370
+    },
+    {
+      "id": "hipointe-demun",
+      "name": "HiPointe-DeMun",
+      "scene": "hipointe-demun",
+      "createdAt": 1782000000000,
+      "bakedAt": 1784701750406,
+      "updatedAt": 1784701476066
+    },
+    {
+      "id": "altadena",
+      "name": "Altadena",
+      "scene": "altadena",
+      "createdAt": 1784014203676,
+      "bakedAt": 1784097709671,
+      "updatedAt": 1784097375258
+    },
+    {
+      "id": "lafayette-square-staging",
+      "name": "LS (staging / re-skeleton)",
+      "scene": "lafayette-square-staging",
+      "createdAt": 1784789317317,
+      "bakedAt": 1784842912485,
+      "updatedAt": 1785517518609
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+const e="Per-building overrides. Keys are building IDs. Values override rule-based defaults for roof_shape, foundation_height, etc. Add buildings here one at a time to refine beyond the best-guess rules.",r={},s={_comment:e,overrides:r};export{e as _comment,s as default,r as overrides};

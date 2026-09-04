@@ -1,0 +1,22 @@
+{
+  "partId": "bark_platanus",
+  "partType": "bark",
+  "source": "authored",
+  "canonicalValue": "scaly",
+  "sourcePath": "public/textures/bark/bark_platanus",
+  "tags": {
+    "bark.type": {
+      "value": "scaly",
+      "ratified": false,
+      "confidence": "low",
+      "source": "rubric.barkDirMap(bark_platanus)"
+    },
+    "bark.color": {
+      "value": null,
+      "ratified": false,
+      "confidence": "low",
+      "source": "texture-sample-pending (no decoder this stage)"
+    }
+  },
+  "conformReport": null
+}

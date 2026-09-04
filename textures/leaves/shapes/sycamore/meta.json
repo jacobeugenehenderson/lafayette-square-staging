@@ -1,0 +1,30 @@
+{
+  "morphology": "orbicular",
+  "naturalSize": 15,
+  "tileGrid": [
+    2,
+    2
+  ],
+  "quality": "vendor",
+  "recommendedSpecies": [
+    "platanus_occidentalis"
+  ],
+  "source": {
+    "vendor": "scanned leaf pack (Jacob, 2026-06-19)",
+    "pack": "Sycamore",
+    "hero": "SYCAMORE9.png",
+    "note": "hi-res source in assets/leaf-packs-2026/sycamore/ (gitignored); shape.png = the hero scan downscaled. ~20 leaves available for atlas/curation.",
+    "atlas": "2×2 from 4 scans",
+    "atlasScans": [
+      "Sycamore/SYCAMORE1.png",
+      "Sycamore/SYCAMORE13.png",
+      "Sycamore/SYCAMORE18.png",
+      "Sycamore/SYCAMORE5.png"
+    ]
+  },
+  "morphologyWas": "palmate",
+  "leafAxes": {
+    "leaf.shape": "orbicular",
+    "leaf.margin": "lobed"
+  }
+}

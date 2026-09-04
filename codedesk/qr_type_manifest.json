@@ -1,0 +1,30 @@
+{
+  "types": {
+    "Townie": [
+      "bizSelect"
+    ],
+    "Resident": [
+      "bizSelect"
+    ],
+    "Guardian": [
+      "bizSelect",
+      "claimSecret"
+    ]
+  },
+  "fields": {
+    "bizSelect": {
+      "label": "",
+      "type": "listbox",
+      "options": []
+    },
+    "claimSecret": {
+      "label": "",
+      "type": "hidden"
+    }
+  },
+  "presets": {
+    "Townie": [],
+    "Resident": [],
+    "Guardian": []
+  }
+}
